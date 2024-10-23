@@ -1,0 +1,29 @@
+DEBUG: False
+
+STYLES:
+  COLORS:
+    darkgreen : rgb(20,  98,   31)
+    lightgreen: rgb(84,  147,  93)
+    purple    : rgb(149, 25,   129)
+    red       : rgb(173, 11,   55)
+    brown     : rgb(171, 86,   3)
+    orange    : rgb(224, 135,  0)
+    lightblue : rgb(55,  115,  185)
+    darkblue  : rgb(0,   71,   153)
+
+HUGGINGFACE:
+  BASE_PARAMS:
+    max_new_tokens: 10
+    temperature: 0.1
+  API_KEY: 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
+  MODEL_URLS:
+      llama1b: meta-llama/Llama-3.2-1B
+      gpt2: openai-community/gpt2
+      gemma: google/gemma-2-2b-it
+
+  BASE_PROMPT: "You are a game agent in a text-based adventure game. The game master
+   provides you with various situations and you aim to improve your performance 
+   throughout the adventure. The format is: Game Master: gives you an observation of your 
+   current state and the valid actions. You: provide your chosen action based on the valid actions.
+   You tend to alter your strategies based on the feedback you receive. 
+   You are currently in a situation where you need to decide what to do next."

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+cleaned_corpora/
+model_weights/
+.text-venv/
