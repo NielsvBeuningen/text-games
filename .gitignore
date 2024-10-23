@@ -3,3 +3,4 @@ __pycache__/
 cleaned_corpora/
 model_weights/
 .text-venv/
+app_config.yaml
